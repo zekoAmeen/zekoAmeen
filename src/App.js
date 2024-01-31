@@ -50,7 +50,7 @@ function App() {
           <Route path="/allcategory" element={<AllCategoryPage />} />
           <Route path="/allbrand" element={<AllBrandPage />} />
           <Route path="/products" element={<ShopProductsPage />} />
-          <Route path="/products/:id" element={<ProductDetalisPage />} />
+          <Route path="/products/:id" element={<ShopProductsPage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/user/forget-password" element={<ForgetPasswordPage />} />
           <Route path="/user/verify-code" element={<VerifyPasswordPage />} />
